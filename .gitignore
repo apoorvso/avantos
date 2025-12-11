@@ -1,0 +1,72 @@
+# ===========================
+# Node projects (both subfolders)
+# ===========================
+avantos/node_modules/
+frontendchallengeserver/node_modules/
+
+avantos/package-lock.json
+frontendchallengeserver/package-lock.json
+
+# Logs
+avantos/*.log
+frontendchallengeserver/*.log
+*.log
+
+# ===========================
+# Vite / React (avantos)
+# ===========================
+avantos/dist/
+avantos/dist-ssr/
+
+# ===========================
+# Env files (if any)
+# ===========================
+avantos/.env
+frontendchallengeserver/.env
+.env
+.env.*
+
+# ===========================
+# Coverage
+# ===========================
+coverage/
+*.lcov
+
+# ===========================
+# System Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Editor Configs
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===========================
+# MacOS Metadata
+# ===========================
+.AppleDouble
+.LSOverride
+
+# ===========================
+# Temp / Backup Files
+# ===========================
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ===========================
+# Keep empty folders with .gitkeep
+# ===========================
+!.gitkeep
+
+# ===========================
+# Ignore generated structure file
+# ===========================
+structure.txt
+

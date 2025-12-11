@@ -1,0 +1,185 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.form-tab.active {
+  background-color: #0d6efd !important;
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.form-tab {
+  opacity: 0.75;
+}
+
+.prefill-modal-backdrop {
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.45) !important;
+}
+
+.prefill-modal-dialog {
+  margin-top: 10vh !important;
+  transform: translateY(0) !important;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;      
+  justify-content: flex-start; 
+  background-color: #222222;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 900px;
+  padding: 3rem 1.5rem 4rem;
+}
+
+
+
+.prefill-outer {
+  width: 100%;             
+  display: block;           
+}
+
+.prefill-card {
+  max-width: 900px;
+  margin: 2rem auto;      
+  border-radius: 14px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+.prefill-row {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  background: #f8f9fb;
+  border: 1px dashed #bcd0ff;
+}
+
+.prefill-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.prefill-row-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: #e6edff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+}
+
+.prefill-row-label {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.prefilled-pill {
+  background: #ececec;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+.prefill-card,
+.prefill-card * {
+  color: #da1515 !important;
+}
+.prefill-row-status {
+  color: #555 !important;
+}
+
+.prefill-row-label {
+  color: #222 !important;
+  font-weight: 600;
+}
+
+.prefill-card h4,
+.prefill-card .text-muted {
+  color: #222 !important;
+}
+
+.form-tab {
+  min-width: 90px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.form-tab.active {
+  background: #0d6efd !important;
+  color: white !important;
+  font-weight: 600;
+  box-shadow: 0 0 8px rgba(13,110,253,0.5);
+}
+
+.form-tab {
+  background: #222;
+  color: #ddd;
+  opacity: 0.85;
+}
+
+
+.form-tab-selected {
+  background-color: #0d6efd !important;  
+  color: #ffffff !important;
+  box-shadow: 0 0 0 2px #ffffff33;
+}
+
+.form-tab-unselected {
+  background-color: #111111 !important;
+  color: #bbbbbb !important;
+  opacity: 0.8;
+}
+
+.prefill-modal-backdrop.show {
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+}
+.prefill-modal-dialog {
+  margin-top: 80px;             
+  animation: modalSlideDown 0.25s ease-out;
+}
+
+.prefill-modal-dialog .modal-content {
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+@keyframes modalSlideDown {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.prefill-modal-dialog {
+  margin-top: 10vh !important; 
+}
+
+.prefill-modal-backdrop {
+  backdrop-filter: blur(6px) brightness(0.6);
+}
+
+.prefill-outer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
